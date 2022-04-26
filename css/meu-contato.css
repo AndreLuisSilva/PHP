@@ -1,0 +1,218 @@
+* {
+	border: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family: "Chalet";
+	src: url("../fonts/Chalet.eot");
+	src: url("../fonts/Chalet.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Chalet.woff") format("woff"),
+		url("../fonts/Chalet.ttf") format("truetype"),
+		url("../fonts/Chalet.svg#Chalet") format("svg");
+
+	font-family: "OLDENGL";
+	src: url("../fonts/OLDENGL.ttf") format("truetype");
+
+	font-family: "SQR721DN";
+	src: url("../fonts/SQR721DN.ttf") format("truetype");
+}
+
+a {
+	color: #131573;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c2f6f5;
+}
+
+body {
+	background: #FFF;
+	color: #212121;
+	font-family: "SQR721DN", Helvetica, Verdana;
+	font-size: 15px;
+}
+
+nav, #principal {
+	-ms-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 18px;
+	margin: .25em;
+	text-align: left;
+	width: 20%;
+	vertical-align: top;
+}
+
+ul {
+	list-style: none;
+	margin-top: 10px;
+}
+
+ul li {
+	margin-bottom: 7px;
+	background: #4493c7;
+	padding: 7px;
+	color: #ffffff;
+	border-radius: 3px;
+	width: 320px;
+}
+
+ul li:hover {
+	background: #bee5ff;
+	color: #000000;
+}
+
+.imagem {
+	margin-left: 10%;
+}
+
+
+#conteudo {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#principal {
+	width: 75%;
+}
+
+.config {
+	-ms-transition: all 2.5s ease-out;
+	-moz-transition: all 2.5s ease-out;
+	-o-transition: all 2.5s ease-out;
+	-webkit-transition: all 2.5s ease-out;
+	transition: all 2.5s ease-out;
+}
+
+.arquivo {
+	display: none;
+}
+
+.file {
+	line-height: 30px;
+	height: 30px;
+	border: 1px solid #A7A7A7;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 15px;
+	vertical-align: middle;
+	width: 300px;
+}
+
+.btn {
+	border: none;
+	box-sizing: border-box;
+	padding: 2px 10px;
+	background-color: #4493c7;
+	color: #FFF;
+	height: 32px;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+.importar {
+	border: none;
+	box-sizing: border-box;
+	padding: 2px 10px;
+	background-color: #4493c7;
+	color: #FFF;
+	height: 32px;
+	font-size: 15px;
+	vertical-align: middle;
+	border-radius: 3px;
+	font-family: "SQR721DN", Helvetica, Verdana;
+}
+
+/* estilização dos formulários */
+
+
+fieldset {
+	border: .1em solid #4493c7;
+	border-radius: 3px;
+	padding: 1em;
+	margin-right: 0%;
+	margin-left: 0%;
+}
+
+form div {
+	margin: .5em;
+}
+
+.arquivo {
+	display: none;
+}
+
+.file {
+	line-height: 30px;
+	height: 30px;
+	border: 1px solid #A7A7A7;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 15px;
+	vertical-align: middle;
+	width: 300px;
+}
+
+.btn {
+	border: none;
+	box-sizing: border-box;
+	padding: 2px 10px;
+	background-color: #4493c7;
+	color: #FFF;
+	height: 32px;
+	font-size: 15px;
+	vertical-align: middle;
+}
+
+.mensagem {
+	background: #b4e28f;
+	border-radius: .5em;
+	color: #000;
+	font-family: Helvetica, Verdana;
+	font-size: 1em;
+	padding: .5em;
+}
+
+/* Fazendo o formulário sumir */
+form {
+	display: none;
+}
+
+table {
+	border: .1em solid rgb(8, 3, 0);
+	border-radius: 1em;
+	cursor: default;
+	font-family: Helvetica,Verdana;
+	font-size: 16px;
+	font-weight: bold;
+	padding: .25em;
+	width: 100%;
+}
+
+table img {
+	max-width: 50%;
+}
+
+table td {
+	border: .1em solid #212121;
+	border-radius: 3px;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+table tr {
+	background: #ceecff;
+}
+
+table thead tr {
+	background: transparent;
+}
+
+table tr:nth-child(even) {
+	background: #82ccfd;
+} 
